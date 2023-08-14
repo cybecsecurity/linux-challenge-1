@@ -10,7 +10,7 @@ main()
 {
    apt update && apt install -y git;
    cd /root
-   git clone https://github.com/jdv-c2/linux-challenge-1.git;
+   git clone https://github.com/cybecsecurity/linux-challenge-1.git;
    cd linux-challenge-1;
    chmod +x main.sh;
    bash main.sh;
